@@ -23,6 +23,7 @@ sites:
   - name: cr1.syd1.theitdept.au
     check: "tcp-ping"
     url: 157.20.113.255
+    port: 22
 
 
 
