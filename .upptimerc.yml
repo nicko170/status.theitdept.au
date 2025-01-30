@@ -1,36 +1,48 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: the-it-dept # Your GitHub organization or username, where this repository lives
+repo: status.theitdept.au
+
+user-agent: the-it-dept
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
+  - name: Website
+    url: https://theitdept.au
+
+  - name: Portal
+    url: https://portal.theitdept.au
+
+  - name: Web Hosting Control Panel (web.theitdept.au)
+    url: https://web.theitdept.au
+
+  - name: web.oci.theitdept.au
+    url: https://web.oci.theitdept.au
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 404
+
+  - name: cr1.syd1.theitdept.au
     check: "tcp-ping"
-    ipv6: true
+    url: 157.20.113.255
+
+
+
+assignees:
+  - nicko170
+
+skipDeleteIssues: true
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.theitdept.au
+  logoUrl: https://raw.githubusercontent.com/the-it-dept/status.theitdept.au/master/assets/logo.png
+  name: The IT Dept Pty Ltd
+  introTitle: The IT Dept Pty Ltd Status
+  introMessage: "Uptime monitor and status page for The IT Dept Pty Ltd."
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+commitMessages:
+  commitAuthorName: "The IT Dept Pty Ltd"
+  commitAuthorEmail: "status@theitdept.au"

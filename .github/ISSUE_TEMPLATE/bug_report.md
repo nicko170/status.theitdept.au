@@ -3,11 +3,9 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: 'bug'
-assignees: 'AnandChowdhary'
+assignees: 'nicko170'
 
 ---
-
-<!-- If you have a question, you should use Discussions instead: https://github.com/orgs/upptime/discussions -->
 
 **Describe the bug**
 A clear and concise description of what the bug is.
