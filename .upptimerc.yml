@@ -38,6 +38,7 @@ status-website:
   name: The IT Dept Pty Ltd
   introTitle: The IT Dept Pty Ltd Status
   introMessage: "Uptime monitor and status page for The IT Dept Pty Ltd."
+  theme: night
   navbar:
     - title: Status
       href: /
