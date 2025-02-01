@@ -40,18 +40,20 @@
     "url": "https://web.theitdept.au",
     "icon": "https://icons.duckduckgo.com/ip3/web.theitdept.au.ico",
     "slug": "web-hosting-control-panel-web-theitdept-au",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.95%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.95%",
+    "uptimeYear": "99.95%",
     "time": 647,
     "timeDay": 466,
     "timeWeek": 647,
     "timeMonth": 647,
     "timeYear": 647,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-01": 1
+    }
   },
   {
     "name": "web.oci.theitdept.au",
@@ -88,7 +90,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-02-01": 53,
+      "2025-02-01": 595,
       "2025-01-31": 1440,
       "2025-01-30": 804
     }
