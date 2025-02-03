@@ -4,18 +4,20 @@
     "url": "https://theitdept.au",
     "icon": "https://icons.duckduckgo.com/ip3/theitdept.au.ico",
     "slug": "website",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
     "time": 1616,
     "timeDay": 1740,
     "timeWeek": 1616,
     "timeMonth": 1616,
     "timeYear": 1616,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-02-03": 2
+    }
   },
   {
     "name": "Portal",
@@ -23,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/portal.theitdept.au.ico",
     "slug": "portal",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.81%",
+    "uptimeDay": "99.18%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
     "time": 2129,
     "timeDay": 2181,
     "timeWeek": 2129,
     "timeMonth": 2129,
     "timeYear": 2129,
     "dailyMinutesDown": {
-      "2025-02-03": 1
+      "2025-02-03": 12
     }
   },
   {
@@ -92,7 +94,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-02-03": 1006,
+      "2025-02-03": 1017,
       "2025-02-02": 1440,
       "2025-02-01": 1440,
       "2025-01-31": 1440,
