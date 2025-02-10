@@ -1,7 +1,7 @@
 url: https://portal.theitdept.au
-status: up
-code: 200
-responseTime: 2132
-lastUpdated: 2025-02-09T23:10:09.134Z
+status: down
+code: 503
+responseTime: 6552
+lastUpdated: 2025-02-10T16:14:57.987Z
 startTime: 2025-01-30T10:36:10.157Z
 generator: Upptime <https://github.com/upptime/upptime>
