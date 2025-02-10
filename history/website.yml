@@ -1,7 +1,7 @@
 url: https://theitdept.au
-status: up
-code: 200
-responseTime: 1545
-lastUpdated: 2025-02-09T23:10:06.822Z
+status: down
+code: 503
+responseTime: 6337
+lastUpdated: 2025-02-10T16:38:02.182Z
 startTime: 2025-01-30T10:36:08.212Z
 generator: Upptime <https://github.com/upptime/upptime>
